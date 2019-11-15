@@ -1,0 +1,21 @@
+{
+  "name": "barbearia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "expresss": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "nunjucks": "^3.2.0",
+    "sequelize-cli": "^5.5.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.19.6"
+  }
+}
